@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Amatori Pescara Basket</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_societa">Società</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="testo_societa_tab_one">L’Amatori nasce nel 1976 come punto di riferimento della pallacanestro giovanile. Nel corso degli anni, dal vivaio del Gruppo Sportivo sono emersi molti validi giocatori, alcuni sono approdati in serie A e nelle Nazionali giovanili, tanti altri in serie B e C. L’attività dell’Amatori, vede costantemente coinvolti centinaia diragazzi di età compresa tra i cinque ed i diciotto anni, che partecipano a tutti i campionati della Federazione Italiana Pallacanestro, con ottimi risultati. Negli anni passati, capitalizzando questi importanti traguardi, unitamente al cambio generazionale della dirigenza, l’Amatori partecipa ai campionati Nazionali Senior portando la città di Pescara sino alla serie B. Il progetto sportivo, tra gli altri, persegue due importanti obiettivi: • raggiungere nel breve traguardi d’interesse nazionale ed internazionale portando Pescara a livelli di visibilità più adeguati, in linea con l’ottima immagine assunta dalla cittànegli ultimi anni. • rafforzare il settore giovanile, potenziando e migliorando l’aspetto tecnico, didattico ed organizzativo, allo scopo di accrescere l’interesse dei ragazzi nei confronti di questa disciplina sportiva. Nella stagione agonistica 2010/2011 l’Amatori raggiunge un importante risultato sportivo conquistando “SUL CAMPO” la promozione in serie B Nazionale. Ma per lo svolgimento delle attività, la priorità assoluta era anche l’identificazione di un’area sulla quale poter realizzare una struttura polivalente, idonea alla pratica sportiva, che potesse diventare polo ricreativo e culturale a servizio della collettività. Ed è così che nasce l’dea di realizzare un progetto: l’AMATORI PESCARA SPORT VILLAGE – Parco Sportivo Polivalente. Si apre così un nuovo corso, un nuovo progetto, un nuovo sogno che presto diventerà realtà per l’Amatori Pescara. Questo centro sarà la casa dell’Amatori Pescara dove poter convogliare prevalentemente l’attività sportiva per i giovani, ma anche i momenti di svago.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_serieb">Serie B 2015 - 2016</string>
+</resources>

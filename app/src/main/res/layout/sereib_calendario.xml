@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lista"
+            android:textColor="#000000"
+            android:id="@+id/choose_list"
+            android:layout_marginEnd="26dp"
+            android:layout_alignTop="@+id/serieb_calendar_switch"
+            android:layout_toStartOf="@+id/serieb_calendar_switch" />
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/serieb_calendar_switch"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:thumbTint="#e52b05"
+            android:trackTint="@color/abc_secondary_text_material_light" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calendario"
+        android:textColor="#000000"
+        android:id="@+id/choose_calendar"
+            android:layout_alignTop="@+id/serieb_calendar_switch"
+            android:layout_toEndOf="@+id/serieb_calendar_switch"
+            android:layout_marginStart="23dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/serieb_calendar_fragmentview"
+        android:layout_below="@+id/serieb_calendar_switch"/>
+
+</RelativeLayout>

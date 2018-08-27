@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4 Pepe Simone 1993 Guardia"
+        android:id="@+id/pepe_text"
+        android:layout_alignParentStart="true"
+        android:textColor="#e52b05"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 Rajola Stefano 1972 Playmaker"
+        android:id="@+id/rajola_text"
+        android:textColor="#FFFFFF"
+        android:background="#e52b05"
+        android:layout_below="@+id/pepe_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 Di Vincenzo Giangiacomo 1994 Play/Guardia"
+        android:id="@+id/di_vincenzo_text"
+        android:background="#FFFFFF"
+        android:textColor="#e52b05"
+        android:layout_below="@+id/rajola_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 Di Fonzo Cristian 1998 Palaymaker"
+        android:id="@+id/di_fonzo_text"
+        android:textColor="#ffffff"
+        android:background="#e52b05"
+        android:layout_below="@+id/di_vincenzo_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14 Di Donato Emidio 1992 Ala"
+        android:id="@+id/di_donato_text"
+        android:textColor="#e52b05"
+        android:background="#ffffff"
+        android:layout_below="@+id/di_fonzo_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 Bini Matteo 1994 Ala/Centro"
+        android:id="@+id/bini_text"
+        android:textColor="#FFFFFF"
+        android:background="#e52b05"
+        android:layout_below="@+id/di_donato_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18 Tabbi Alessandro 1994 Centro"
+        android:id="@+id/tabbi_text"
+        android:textColor="#e52b05"
+        android:background="#ffffff"
+        android:layout_below="@+id/bini_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Polonara Valerio 1984 Centro"
+        android:id="@+id/polonara_text"
+        android:textColor="#FFFFFF"
+        android:background="#e52b05"
+        android:layout_below="@+id/tabbi_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23 Timperi Marco 1997 Guarida/Ala"
+        android:id="@+id/timperi_text"
+        android:textColor="#e52b05"
+        android:background="#ffffff"
+        android:layout_below="@+id/polonara_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="52 Tagliamonte Stefano 1998 Ala"
+        android:id="@+id/tagliamonte_text"
+        android:textColor="#FFFFFF"
+        android:background="#e52b05"
+        android:layout_below="@+id/timperi_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="71 Timperi Matteo 1996 Guarida/Ala"
+        android:id="@+id/timperi2_text"
+        android:textColor="#e52b05"
+        android:background="#ffffff"
+        android:layout_below="@+id/tagliamonte_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

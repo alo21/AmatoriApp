@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PRESIDENTE"
+        android:textColor="#e52b05"
+        android:id="@+id/presidente"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carlo Di Fabio"
+        android:id="@+id/nome_presidente"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/presidente"
+        android:layout_alignStart="@+id/presidente"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VICE PRESIDENTE"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/vice_presidente"
+        android:layout_below="@+id/nome_presidente"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luca D’Onofrio\nFabrizio Toro"
+        android:id="@+id/nome_vice_presidente"
+        android:layout_below="@+id/vice_presidente"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIRIGENTI"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/dirigenti"
+        android:layout_below="@+id/nome_vice_presidente"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alessandro Bedeschini Bucci\nLorenzo Chiacchiaretta\nRoberto Cicconetti\nMario Fortarezza\nPaolo Losavio"
+        android:id="@+id/nomi_dirigenti"
+        android:layout_below="@+id/dirigenti"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MARKETING"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/marketing"
+        android:layout_below="@+id/nomi_dirigenti"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giacomo Filippelli"
+        android:id="@+id/nome_marketing"
+        android:layout_below="@+id/marketing"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAPPORTI CON ENTI PUBBLICI"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/rapporti_pub"
+        android:layout_below="@+id/nome_marketing"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carlo Ponziani"
+        android:id="@+id/nome_rapporti_pub"
+        android:layout_below="@+id/rapporti_pub"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UFFICIO STAMPA"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/uffico_stampa"
+        android:layout_below="@+id/nome_rapporti_pub"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alessandro Bedeschini Bucci\nStefano Blois"
+        android:id="@+id/nomi_uffico_stampa"
+        android:layout_below="@+id/uffico_stampa"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPEAKER"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/speaker"
+        android:layout_below="@+id/nomi_uffico_stampa"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riccardo Tacconelli"
+        android:id="@+id/nome_speaker"
+        android:layout_below="@+id/speaker"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDIA PARTNER"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/media_partner"
+        android:layout_below="@+id/nome_speaker"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RETE 8 - TELEMARE"
+        android:id="@+id/nome_media_partner"
+        android:layout_below="@+id/media_partner"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVIZIO SICUREZZA e STEWARD"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/stew_sicur"
+        android:layout_below="@+id/nome_media_partner"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pescara Servizi"
+        android:id="@+id/nome_stew_sicur"
+        android:layout_below="@+id/stew_sicur"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMPO DI GARA"
+        android:textColor="#e52b05"
+        android:textSize="23sp"
+        android:id="@+id/campo_gara"
+        android:layout_below="@+id/nome_stew_sicur"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palasport Via Elettra – PESCARA"
+        android:id="@+id/nome_campo_gara"
+        android:layout_below="@+id/campo_gara"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
